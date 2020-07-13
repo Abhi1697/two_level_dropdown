@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Charm&family=Cookie&family=Inria+Serif&family=Oleo+Script+Swash+Caps&family=Pridi:wght@600&family=Rochester&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
+	
 	<title>Campus{X}</title>
+
+	<meta charset="utf-8">
+	<meta name="description" content="dashboard">
+	<meta name="keywords" content="campusx, dashboard">
+	<meta name="author" content="Abhirup Chattaraj">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 </head>
 <body>
 	<div class="navbar" id="navbar1">
 		<h3>Campus X</h3>
 	</div>
-	<hr>
+	<hr style="background-color: #f7f1e3; height: 2px;">
 	<div class="navbar" id="navbar2">
 		<ul>
-			<li><a href="#">Home</a></li>
-			<li>
+			<li class="menu"><a href="#">Home</a></li>
+			<li class="menu">
 				<a href="#">Courses</a>
 				<div class="dropdown">
 					<ul>
@@ -25,18 +35,43 @@
 									<li><a href="#">React</a></li>
 									<li><a href="#">MongoDB</a></li>
 									<li><a href="#">Python</a></li>
-									<li><a href="#">AWS</a></li>
+									<li><a href="#">AWS&nbsp;&nbsp;</a></li>
 									<li><a href="#">Flask</a></li>
 									<li><a href="#">MySQL</a></li>
 								</ul>
 							</div>
 						</li>
-						<li><a href="#">Machine Learning</a></li>
-						<li><a href="#">Deep Learning</a></li>
+						<li>
+							<a href="#">Machine Learning</a>
+							<div class="dropdown1">
+								<ul>
+									<li><a href="#">Data-Analysis</a></li>
+									<li><a href="#">Data-Visualization</a></li>
+									<li><a href="#">Tableau</a></li>
+									<li><a href="#">SKlearn</a></li>
+									<li><a href="#">AWS</a></li>
+									<li><a href="#">Regression</a></li>
+									<li><a href="#">Classification</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Deep Learning</a>
+							<div class="dropdown1">
+							<ul>
+								<li><a href="#">ANN</a></li>
+								<li><a href="#">Tensorflow</a></li>
+								<li><a href="#">Keras</a></li>
+								<li><a href="#">OpenCV</a></li>
+								<li><a href="#">CNN &nbsp;&nbsp;</a></li>
+								<li><a href="#">NLP &nbsp;&nbsp;</a></li>
+								<li><a href="#">RNN</a></li>
+							</ul>
+						</div>
 					</ul>
 				</div>
 			</li>
-			<li>
+			<li class="menu">
 				<a href="#">Contact</a>
 				<div class="dropdown">
 					<ul>
@@ -46,7 +81,7 @@
 					</ul>
 				</div>
 			</li>
-			<li>
+			<li class="menu">
 				<a href="#">Login</a>
 				<div class="dropdown">
 					<ul>
