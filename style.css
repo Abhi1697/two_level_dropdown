@@ -90,4 +90,11 @@ body{
 .dropdown ul li:hover .dropdown1 ul li a{
 	display: block;
 	font-size: 18px;
+	line-height: 1.5em;
+}
+.dropdown1 li{
+	border-bottom: 1px solid black;
+}
+.dropdown1 li:last-child{
+	border-bottom: none;
 }
