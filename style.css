@@ -3,8 +3,9 @@
 	padding: 0px;
 }
 body{
-	background-image: url(Images/back.jpg);
+	background-image: url(Images/back1.jpg);
 	background-repeat: no-repeat;
+	background-size: cover;
 	font-family: 'cookie', cursive;
 }
 .navbar{
