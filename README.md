@@ -10,3 +10,6 @@ The project is made to try out the dropdown menu using css properties. The name 
 
 # Screenshot 3
 ![Alt text](Images/Sc3.png?raw=true "Picture 3")
+
+# Screenshot 3
+![Alt text](Images/Sc4.png?raw=true "Picture 4")
